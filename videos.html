@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vidéos &amp; Directs — MEDAS</title>
+<meta name="description" content="Suivez les directs et revivez les cultes, enseignements et moments de louange de MEDAS à Yamoussoukro.">
+<meta name="author" content="MEDAS">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<meta property="og:title" content="Vidéos & Directs — MEDAS">
+<meta property="og:description" content="Directs et vidéos des cultes de MEDAS.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a href="#contenu" class="skip-link">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="" class="brand-logo">
+      <span class="brand-text"><strong>MEDAS</strong></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu-principal">☰ Menu</button>
+      <ul class="nav-links" id="menu-principal">
+        <li><a href="index.html" data-fr="Accueil" data-en="Home" data-es="Inicio" data-de="Startseite">Accueil</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+            Église
+            <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-panel">
+            <a href="a-propos.html" class="nav-dropdown-item">
+              <span class="ndi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span>
+              <span class="ndi-text"><strong>À propos / Fondateur</strong><small>Notre histoire et notre vision</small></span>
+            </a>
+            <a href="videos.html" class="nav-dropdown-item" aria-current="page">
+              <span class="ndi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 4 20 12 6 20 6 4"/></svg></span>
+              <span class="ndi-text"><strong>Vidéos &amp; Directs</strong><small>Revivez nos cultes en ligne</small></span>
+            </a>
+            <a href="departements.html" class="nav-dropdown-item">
+              <span class="ndi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+              <span class="ndi-text"><strong>Départements</strong><small>Nos ministères et formations</small></span>
+            </a>
+          </div>
+        </li>
+        <li><a href="cultes.html" data-fr="Cultes" data-en="Services" data-es="Cultos" data-de="Gottesdienste">Cultes</a></li>
+        <li><a href="evenements.html" data-fr="Événements" data-en="Events" data-es="Eventos" data-de="Veranstaltungen">Événements</a></li>
+        <li><a href="contact.html" data-fr="Contact" data-en="Contact" data-es="Contacto" data-de="Kontakt">Contact</a></li>
+        <li>
+          <select id="langSelect" class="lang-select" aria-label="Choisir la langue">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+            <option value="de">DE</option>
+          </select>
+        </li>
+        <li><a href="dons.html" class="nav-cta" data-fr="Faire un don" data-en="Donate" data-es="Donar" data-de="Spenden">Faire un don</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Suivez-nous en ligne</p>
+      <h1>Vidéos &amp; Directs</h1>
+      <p>Revivez nos cultes, enseignements et moments de louange, ou rejoignez-nous en direct pendant nos heures de culte.</p>
+    </div>
+  </section>
+
+  <section class="section" id="en-direct">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Maintenant</p>
+        <h2>En direct</h2>
+      </div>
+
+      <!--
+        POUR METTRE UN DIRECT EN LIGNE :
+        1) Récupérez le lien "Intégrer" (Embed) de votre vidéo YouTube en direct.
+        2) Remplacez tout le contenu de .video-live-frame ci-dessous par :
+           <iframe src="https://www.youtube.com/embed/VOTRE_ID_VIDEO?autoplay=1"
+                   title="Culte en direct — MEDAS"
+                   allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        3) Une fois le direct terminé, remettez le bloc .video-placeholder tel quel.
+      -->
+      <div class="video-live-frame">
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7Z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          <p>Aucun direct en ce moment</p>
+          <p class="video-placeholder-sub">Revenez pendant nos heures de culte : dimanche, mardi et vendredi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">À revoir</p>
+        <h2>Derniers cultes &amp; enseignements</h2>
+      </div>
+
+      <div class="grid grid-3">
+
+        <!--
+          POUR AJOUTER UNE VRAIE VIDÉO :
+          Remplacez le contenu de .video-thumb par un iframe YouTube, ex :
+          <div class="video-thumb"><iframe src="https://www.youtube.com/embed/VOTRE_ID_VIDEO"
+               title="Titre de la vidéo" allowfullscreen></iframe></div>
+          Ou gardez une miniature cliquable :
+          <div class="video-thumb"><img src="assets/img/miniature-1.jpg" alt="..."></div>
+        -->
+        <div class="video-card">
+          <div class="video-thumb">
+            <iframe src="https://www.youtube.com/embed/6Th0IOIOMNY" title="Prédication — La reconnaissance" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <div class="video-card-body">
+            <h3>Prédication — La reconnaissance</h3>
+            <p>Luc 17:11-19 · Pasteur Ferdinand<br>2 août 2026</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb"><span class="video-thumb-empty">▶</span></div>
+          <div class="video-card-body">
+            <h3>Titre du culte ou de l'enseignement</h3>
+            <p>Date à ajouter</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb"><span class="video-thumb-empty">▶</span></div>
+          <div class="video-card-body">
+            <h3>Titre du culte ou de l'enseignement</h3>
+            <p>Date à ajouter</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="placeholder-note">✏️ Ces 3 cartes sont des exemples à dupliquer. Pour chacune : changez le titre, la date, et remplacez la miniature par une vraie image ou une vidéo YouTube intégrée (voir les commentaires dans le code).</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/img/logo-medas.jpg" alt="Logo MEDAS" class="footer-logo">
+        <h4>MEDAS</h4>
+        <p style="color:rgba(255,255,255,0.75)">Ministère Évangélique de la Délivrance des Âmes pour le Salut. Une communauté de foi à Yamoussoukro.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/eglisemedasofficiel/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@ÉgliseMEDAS" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.5s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C16.9 4 12 4 12 4h0s-4.9 0-7.8.2c-.4 0-1.4.1-2.3 1C1.2 5.9 1 7.5 1 7.5S.8 9.3.8 11.2v1.6c0 1.9.2 3.7.2 3.7s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.2 8 .2 8 .2s4.9 0 7.8-.2c.4 0 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.7v-1.6c0-1.9-.2-3.7-.2-3.7ZM9.7 14.9V8.9l6 3-6 3Z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@medasofficiel" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="cultes.html">Cultes &amp; horaires</a></li>
+          <li><a href="videos.html">Vidéos &amp; directs</a></li>
+          <li><a href="departements.html">Départements</a></li>
+          <li><a href="evenements.html">Événements</a></li>
+          <li><a href="dons.html">Faire un don</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+2250767090657">+225 07 67 09 06 57</a></li>
+          <li><a href="mailto:eglisemedasyamoussoukro@gmail.com">eglisemedasyamoussoukro@gmail.com</a></li>
+          <li>Yamoussoukro, 220 Logements,<br>Carrefour du Bonheur</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 MEDAS. Tous droits réservés.</span>
+      <span><a href="contact.html">Nous contacter</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
